@@ -1,0 +1,8 @@
+@local = http://localhost:8181
+
+GET {{local}}/api
+Content-Type: application/json
+
+{
+  "name": "tomer"
+}
